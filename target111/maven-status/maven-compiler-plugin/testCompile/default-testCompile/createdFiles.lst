@@ -1,0 +1,8 @@
+utils/FailureWatcher.class
+Test/CheckUserPageTest.class
+Test/BaseTest.class
+exeptions/BrowserNotSupported.class
+Test/CheckMainPageTest.class
+pages/UserPageSteps.class
+pages/MainPageSteps.class
+utils/WebDriverFactory.class

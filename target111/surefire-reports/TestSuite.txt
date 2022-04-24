@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 29.499 s <<< FAILURE! - in TestSuite
+checkThatThatUsersMoreThenTest(Test.CheckMainPageTest)  Time elapsed: 0.781 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //*[@class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-y6yw79-MuiPaper-root-MuiCard-root"][0]}
+Expected: visible
+Screenshot: file:/home/andrey/java/otus/КУРСОВАЯ/WebTest/build/reports/tests/1650820579293.0.png
+Page source: file:/home/andrey/java/otus/КУРСОВАЯ/WebTest/build/reports/tests/1650820579293.0.html
+Timeout: 50 ms.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-y6yw79-MuiPaper-root-MuiCard-root"]"}
+	at Test.CheckMainPageTest.checkThatThatUsersMoreThenTest(CheckMainPageTest.java:25)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-y6yw79-MuiPaper-root-MuiCard-root"]"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'ASUSLaptopTP470EA', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-27-generic', java.version: '11.0.14.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a048fa2c69c3eaa10ef36124edab3a94, findElement {using=xpath, value=//*[@class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-y6yw79-MuiPaper-root-MuiCard-root"]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /tmp/.com.google.Chrome.XG5hCu}, goog:chromeOptions: {debuggerAddress: localhost:44621}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:44621/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a048fa2c69c3eaa10ef36124edab3a94
+	at Test.CheckMainPageTest.checkThatThatUsersMoreThenTest(CheckMainPageTest.java:25)
+

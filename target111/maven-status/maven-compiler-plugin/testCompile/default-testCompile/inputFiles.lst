@@ -1,0 +1,8 @@
+/home/andrey/java/otus/КУРСОВАЯ/WebTest/src/test/java/utils/WebDriverFactory.java
+/home/andrey/java/otus/КУРСОВАЯ/WebTest/src/test/java/Test/CheckUserPageTest.java
+/home/andrey/java/otus/КУРСОВАЯ/WebTest/src/test/java/pages/UserPageSteps.java
+/home/andrey/java/otus/КУРСОВАЯ/WebTest/src/test/java/Test/CheckMainPageTest.java
+/home/andrey/java/otus/КУРСОВАЯ/WebTest/src/test/java/utils/FailureWatcher.java
+/home/andrey/java/otus/КУРСОВАЯ/WebTest/src/test/java/exeptions/BrowserNotSupported.java
+/home/andrey/java/otus/КУРСОВАЯ/WebTest/src/test/java/Test/BaseTest.java
+/home/andrey/java/otus/КУРСОВАЯ/WebTest/src/test/java/pages/MainPageSteps.java
