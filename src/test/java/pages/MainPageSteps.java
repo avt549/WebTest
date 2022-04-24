@@ -30,7 +30,7 @@ public class MainPageSteps {
         Configuration.pageLoadStrategy = "eager";
         Configuration.timeout = 50;
 
-        Configuration.pageLoadTimeout = 5000;
+        Configuration.pageLoadTimeout = 20000;
         switch (browserType) {
             case "chrome":
                 Configuration.browser = "chrome";
