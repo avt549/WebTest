@@ -202,7 +202,7 @@
                         <allureDownloadUrl>
                             https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.10.0/allure-commandline-2.10.0.zip
                         </allureDownloadUrl>
-                            <reportDirectory>${basedir}/allure-report</reportDirectory>
+                            <reportDirectory>${basedir}/target/allure-results</reportDirectory>
                     </configuration>
                 </plugin>
 
