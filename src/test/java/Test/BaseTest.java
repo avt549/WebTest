@@ -16,10 +16,7 @@ import pages.MainPageSteps;
 import pages.UserPageSteps;
 import utils.FailureWatcher;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-@ExtendWith(FailureWatcher.class)
+//@ExtendWith(FailureWatcher.class)
 public class BaseTest {
     public MainPageSteps mainPageSteps = new MainPageSteps();
     public UserPageSteps userPageSteps = new UserPageSteps();
